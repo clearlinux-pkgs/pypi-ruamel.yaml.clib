@@ -4,7 +4,7 @@
 #
 Name     : pypi-ruamel.yaml.clib
 Version  : 0.2.6
-Release  : 22
+Release  : 23
 URL      : https://files.pythonhosted.org/packages/8b/25/08e5ad2431a028d0723ca5540b3af6a32f58f25e83c6dda4d0fcef7288a3/ruamel.yaml.clib-0.2.6.tar.gz
 Source0  : https://files.pythonhosted.org/packages/8b/25/08e5ad2431a028d0723ca5540b3af6a32f58f25e83c6dda4d0fcef7288a3/ruamel.yaml.clib-0.2.6.tar.gz
 Summary  : C version of reader, parser and emitter for ruamel.yaml derived from libyaml
@@ -14,11 +14,7 @@ Requires: pypi-ruamel.yaml.clib-license = %{version}-%{release}
 Requires: pypi-ruamel.yaml.clib-python = %{version}-%{release}
 Requires: pypi-ruamel.yaml.clib-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: ruamel.yaml.clib
-Provides: ruamel.yaml.clib-python
-Provides: ruamel.yaml.clib-python3
 BuildRequires : python3-dev
-BuildRequires : ruamel.yaml
 
 %description
 ruamel.yaml.clib
@@ -62,7 +58,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641492010
+export SOURCE_DATE_EPOCH=1641849288
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
