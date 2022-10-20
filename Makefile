@@ -1,5 +1,5 @@
 PKG_NAME := pypi-ruamel.yaml.clib
-URL = https://files.pythonhosted.org/packages/8b/25/08e5ad2431a028d0723ca5540b3af6a32f58f25e83c6dda4d0fcef7288a3/ruamel.yaml.clib-0.2.6.tar.gz
+URL = https://files.pythonhosted.org/packages/d5/31/a3e6411947eb7a4f1c669f887e9e47d61a68f9d117f10c3c620296694a0b/ruamel.yaml.clib-0.2.7.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
