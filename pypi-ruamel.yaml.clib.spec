@@ -7,7 +7,7 @@
 #
 Name     : pypi-ruamel.yaml.clib
 Version  : 0.2.12
-Release  : 38
+Release  : 39
 URL      : https://files.pythonhosted.org/packages/20/84/80203abff8ea4993a87d823a5f632e4d92831ef75d404c9fc78d0176d2b5/ruamel.yaml.clib-0.2.12.tar.gz
 Source0  : https://files.pythonhosted.org/packages/20/84/80203abff8ea4993a87d823a5f632e4d92831ef75d404c9fc78d0176d2b5/ruamel.yaml.clib-0.2.12.tar.gz
 Summary  : C version of reader, parser and emitter for ruamel.yaml derived from libyaml
